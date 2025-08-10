@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+}
+body{
+    background-color: #CAC4CE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:80vh;
+}
+
+.container{
+    background-color: #fff;
+    width: 30rem;
+    border-radius: 2rem;
+    border: none;
+}
+.subcontainer{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#app-name{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.amount{
+    font-size: 1.5rem;
+}
+
+input{
+    outline: none;
+    border-color: black;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.process{
+    display: flex;
+    justify-content: space-between;
+}
+.process p{
+    font-size: 1.5rem;
+}
+
+.flag{
+    border: 1px solid gray;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.flag img{
+    width: 40%;
+}
+
+.flag select{
+    border: none;
+    font-size: 1rem;
+}
+.exchange{
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+
+.result{
+    margin-top: 2rem;
+}
+.result p{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.result button{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+   margin-bottom: 2rem;
+}
